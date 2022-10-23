@@ -1,0 +1,36 @@
+================================================================================
+| Syntax                      | Description
+================================================================================
+| Verbs
+--------------------------------------------------------------------------------
+| FLEX                        | Buffer time-blocks
+| PLAN                        | Short-term planning
+| WAKE                        | Wakeup
+| SLP                         | Go to sleep
+| READ: <content>             | Read `<content>`
+| WR: <content>               | Write about `<content>`
+| THINK: <content>            | Think about `<content>`. Could be meditation.
+| POM_<work_type>: <task>     | A pomodoro is a standard time-block in which
+|                             | I focus on completing the `<task>` which is 
+|                             | apart of the larger `<work_type>`. Generally two
+|                             | pomodoros are followed by a break.
+| IPOM_<work_type>: <task>    | Irregular-timed pomodoro.
+| BRK                         | Rest my brain
+| COOK_[B | L | D]: <content> | Cook breakfast, lunch, or dinner of `<content>`.
+| EAT_[B | L | D]             | Eat breakfast, lunch, or dinner.
+| CLN_<object>                | Clean `<object>`. Often apart of me like teeth.
+| DRS                         | Dress/undress myself
+| DRV_<location>              | Drive to `<location>`
+| WLK_<location>              | Walk to `<location>`
+| PACK: <content>             | Pack/unpack `<content>`
+| EXR: <content>              | Exercise by doing `<content>`
+--------------------------------------------------------------------------------
+| Nouns
+--------------------------------------------------------------------------------
+| ROM                         | Range of motion device
+| META_DEV                    | Meta-development. Tooling & processes.
+| SCH                         | School
+| LIB                         | Library
+| CHR                         | Chores
+| CLS                         | Class
+
