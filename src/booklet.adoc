@@ -4,14 +4,13 @@
 Silas Waxter
 :doctype: book
 
-
 include::encodings.adoc[]
 
-:schedule-day-filename: days/monday.src
-include::schedule_layout.adoc[]
+:schedule-day-filename: monday.src
+include::days/schedule.adoc[]
 
-:schedule-day-filename: days/tuesday.src
-include::schedule_layout.adoc[]
+:schedule-day-filename: tuesday.src
+include::days/schedule.adoc[]
 
 :backlog-type: Chores
-include::backlog_layout.adoc[]
+include::backlogs/layout.adoc[]

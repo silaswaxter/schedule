@@ -3,6 +3,7 @@
 [width=100%]
 [cols="1a,1a"]
 |===
+| {booklet-theme-phrase} | Date
 
 |
 // page 1 left half
