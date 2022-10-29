@@ -1,0 +1,39 @@
+// nesting tables to place tables side-by-side.
+[frame=none]
+[width=100%]
+[cols="1a,1a"]
+|===
+
+|
+// page 1 left half
+[%noheader]
+[cols="15h,85"]
+!===
+include::monday.src[lines=1..52]
+!===
+
+|
+// page 1 right half
+[%noheader]
+[cols="15h,85"]
+!===
+include::monday.src[lines=53..104]
+!===
+
+|
+// page 2 left half
+[%noheader]
+[cols="15h,85"]
+!===
+include::monday.src[lines=105..156]
+!===
+
+|
+// page 2 right half
+[%noheader]
+[cols="15h,85"]
+!===
+include::monday.src[lines=157..208]
+!===
+|===
+  
