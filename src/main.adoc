@@ -1,0 +1,12 @@
+// The top-level file that describes the book's composition
+
+include::encodings.adoc[]
+
+:schedule-day-filename: days/monday.src
+include::schedule_layout.adoc[]
+
+:schedule-day-filename: days/tuesday.src
+include::schedule_layout.adoc[]
+
+:schedule-day-filename: days/friday.src
+include::schedule_layout.adoc[]

@@ -9,7 +9,7 @@
 [%noheader]
 [cols="15h,85"]
 !===
-include::monday.src[lines=1..52]
+include::{schedule-day-filename}[lines=1..52]
 !===
 
 |
@@ -17,7 +17,7 @@ include::monday.src[lines=1..52]
 [%noheader]
 [cols="15h,85"]
 !===
-include::monday.src[lines=53..104]
+include::{schedule-day-filename}[lines=53..104]
 !===
 
 |
@@ -25,7 +25,7 @@ include::monday.src[lines=53..104]
 [%noheader]
 [cols="15h,85"]
 !===
-include::monday.src[lines=105..156]
+include::{schedule-day-filename}[lines=105..156]
 !===
 
 |
@@ -33,7 +33,7 @@ include::monday.src[lines=105..156]
 [%noheader]
 [cols="15h,85"]
 !===
-include::monday.src[lines=157..208]
+include::{schedule-day-filename}[lines=157..208]
 !===
 |===
   
