@@ -39,11 +39,11 @@
 | BRK
 | Rest my brain
 
-| COOK_[B | L | D]: <content>
-| Cook breakfast, lunch, or dinner of `<content>`.
+| COOK_[S \| B \| L \| D]: <content>
+| Cook snack, breakfast, lunch, or dinner of `<content>`.
 
-| EAT_[B | L | D]
-| Eat breakfast, lunch, or dinner.
+| EAT_[S \| B \| L \| D]
+| Eat snack, breakfast, lunch, or dinner.
 
 | CLN_<object>
 | Clean `<object>`. Often apart of me like teeth.
