@@ -1,12 +1,48 @@
 extends: default
 page:
   layout: portrait
-  margin: [0.01in, 0.01in, 0.01in, 0.01in]
-  size: [3.5in, 5.5in]
+  margin: [0.02in, 0.02in, 0.02in, 0.02in]
+  size: [3.5in, 5.6in]
+
 footer:
   height: 0
+heading:
+  h1-font-size: 18
+  h2-font-size: 10
+  h3-font-size: 9
+  h4-font-size: 8
+  h5-font-size: 7
+  h6-font-size: 6
+  h1-margin-bottom: 2
+  h2-margin-bottom: 2
+  h3-margin-bottom: 2
+  h4-margin-bottom: 2
+  h5-margin-bottom: 2
+  h6-margin-bottom: 2
+
+title-page:
+  title:
+    font-size: $heading-h1-font-size
+    font-color: #000000
+    font-style: bold
+  subtitle:
+    font-size: $heading-h2-font-size
+    font-color: #000000
+    font-style: italic
+  authors:
+    font-size: $heading-h4-font-size
+    font-color: #000000
+    font-style: normal
+    margin-top: 6
 base:
   font-size: 5
+
+cover:
+  front:
+    image: ~
+  back:
+    image: ''
+
 table:
   border-width: 0
   grid-width: 0

@@ -1,4 +1,4 @@
-====== Encodings
+== Encodings
 
 :col1_width: 40
 :col2_width: 60
