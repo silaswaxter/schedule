@@ -1,0 +1,46 @@
+= Scheduling Silas
+
+[quote, unknown]
+"If you don't control your time, your time controls you." 
+
+An operating-system and a personal schedule have very similar goals. Both must
+respond to external events and allocate shared resources. Like an operating
+system, there are multiple "users" of the shared resource: me. These "users"
+have different goals and needs. If one of these "users" becomes too greedy, the
+other users will revolt and overthrow the tyranny. Therefore, one of the key
+indicators of good schedule is balance. 
+
+The second goal is to maximize my utilization--the time effectively tracked by
+my schedule. Again, not all time needs to be spent being "productive", but at
+least track it. Its about being mindful and intentional of where I'm spending 
+my time. Perhaps this will reduce the phenomenon of thinking about work when
+your playing and thinking about play when your working.
+
+== Implementation
+The end-product is a printable booklet which I carry in my wallet. I've tried
+digital solutions, but I prefer paper. 
+
+The booklet is composed of a schedule for Monday through Friday which are the
+most predictable days of my week. However, planning for the future contains an
+inherent level of risk. My goal is to be nimble (lowercase agile). To do this,
+I've scheduled ``PLAN`` a couple of times throughout my day. This time will be
+used to adjust to external events. Furthermore, the booklet is produced
+every 1-2 weeks (length of a traditional sprint) allowing me to respond to
+change at larger scope. 
+
+The last pages of my schedule booklet will be my "backlogs" for the various
+tasks I need to complete: school, chores, reading, quotes, ideas, road-maps, 
+etc.
+
+== Contributing
+This project subscribes to the 
+https://www.writethedocs.org/guide/docs-as-code/[docs-as-code philosophy]: 
+documentation is described in plain-text, and outputs are generated from these 
+source files. This improves flexibility, correctness, maintainability, and
+single-source-of-truth. 
+
+=== Tools Used
+* https://asciidoctor.org/[asciidoctor] 
+  https://hub.docker.com/r/asciidoctor/docker-asciidoctor[docker image]
+* https://archlinux.org/packages/extra/any/psutils/[psutils]
+

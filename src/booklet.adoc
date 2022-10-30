@@ -1,0 +1,16 @@
+// The top-level file that describes the book's composition
+:booklet-theme-phrase: Kill Dragons!
+= {booklet-theme-phrase}: A Daily Schedule
+Silas Waxter
+:doctype: book
+
+include::encodings.adoc[]
+
+:schedule-day-filename: monday.src
+include::days/schedule.adoc[]
+
+:schedule-day-filename: tuesday.src
+include::days/schedule.adoc[]
+
+:backlog-type: Chores
+include::backlogs/layout.adoc[]

@@ -1,0 +1,7 @@
+== Backlog: {backlog-type}
+
+[cols="50a,20,10,10,10"]
+|===
+| Item Description | Location | Rank_0 | Rank_1 | Rank_2
+
+|===
