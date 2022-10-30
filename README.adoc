@@ -39,3 +39,8 @@ documentation is described in plain-text, and outputs are generated from these
 source files. This improves flexibility, correctness, maintainability, and
 single-source-of-truth. 
 
+=== Tools Used
+* https://asciidoctor.org/[asciidoctor] 
+  https://hub.docker.com/r/asciidoctor/docker-asciidoctor[docker image]
+* https://archlinux.org/packages/extra/any/psutils/[psutils]
+
