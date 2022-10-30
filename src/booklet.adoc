@@ -6,10 +6,10 @@ Silas Waxter
 
 include::encodings.adoc[]
 
-:schedule-day-filename: monday.src
+:schedule-day-filename: monday.adoc
 include::days/schedule.adoc[]
 
-:schedule-day-filename: tuesday.src
+:schedule-day-filename: tuesday.adoc
 include::days/schedule.adoc[]
 
 :backlog-type: Chores

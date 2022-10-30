@@ -10,6 +10,7 @@
 [%noheader]
 [cols="15h,85"]
 !===
+// note: `lines` specifies before preprocessor expansion. See #1
 include::{schedule-day-filename}[lines=1..52]
 !===
 
