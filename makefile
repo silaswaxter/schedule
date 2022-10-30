@@ -10,6 +10,7 @@ booklet_theme := $(src_dir)/booklet-theme.yml
 srcs := $(shell find $(src_dir) -name "*.adoc")
 
 monday_pdf := $(build_dir)/monday.pdf
+pages_monday_pdf := $(build_dir)/pages_monday.pdf
 days_schedule_theme := $(src_dir)/days/schedule-theme.yml
 
 .phony: print $(readable_pdf) clean
@@ -26,7 +27,10 @@ $(readable_pdf): $(booklet_source) $(booklet_theme) $(srcs)
 		asciidoctor/docker-asciidoctor \
 		asciidoctor-pdf $(booklet_source) --theme $(booklet_theme) -o $@
 
-$(monday_pdf): $(src_dir)/days/schedule.adoc $(src_dir)/days/monday.adoc $(days_schedule_theme)
+$(monday_pdf): $(pages_monday_pdf)
+	bash ./schedule_layout.sh $< $@
+
+$(pages_monday_pdf): $(src_dir)/days/schedule.adoc $(src_dir)/days/monday.adoc $(days_schedule_theme)
 	docker run -v $(shell pwd):/documents/ \
 		--rm \
 		asciidoctor/docker-asciidoctor \
