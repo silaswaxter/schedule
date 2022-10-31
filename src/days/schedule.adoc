@@ -1,6 +1,6 @@
 // remember attributes can be passed from cli using `-a`
 **Date**
-[cols="15h,85",]
+[cols="25h,75",]
 |===
 include::{schedule-day}.adoc[]
 |===
