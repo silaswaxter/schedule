@@ -5,6 +5,7 @@ readable_pdf := $(build_dir)/readable_schedule.pdf
 printable_pdf := $(build_dir)/printable_schedule.pdf
 
 booklet_top_src	:= $(src_dir)/booklet.adoc
+booklet_src := $(shell find $(src_dir)/ -name "*.adoc")
 booklet_theme := $(src_dir)/booklet-theme.yml
 
 days_src := $(shell find $(src_dir)/days -name *day.adoc)
@@ -22,7 +23,7 @@ print: $(printable_pdf)
 $(printable_pdf): $(readable_pdf)
 	bash ./layout.sh $< $@
 
-$(readable_pdf): $(booklet_top_src) $(booklet_theme) $(days_assemble_pdf)
+$(readable_pdf): $(booklet_top_src) $(booklet_theme) $(days_assemble_pdf) $(booklet_src)
 	docker run -v $(shell pwd):/documents/ \
 		--rm \
 		asciidoctor/docker-asciidoctor \

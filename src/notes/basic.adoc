@@ -1,0 +1,7 @@
+== {note-type} Note
+
+[cols="80a,20"]
+|===
+| Item Description |  
+
+|===

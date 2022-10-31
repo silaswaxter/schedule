@@ -17,8 +17,33 @@ image::{day-pdf-prefix}wednesday{day-pdf-suffix}[pages=1..2]
 image::{day-pdf-prefix}thursday{day-pdf-suffix}[pages=1..2]
 image::{day-pdf-prefix}friday{day-pdf-suffix}[pages=1..2]
 
+
+:backlog-type: Meta Development
+:!include-location: //undefined
+include::backlogs/basic.adoc[]
+
+:backlog-type: Project ROM
+:!include-location: //undefined
+include::backlogs/basic.adoc[]
+
+:backlog-type: Social Media
+:!include-location: //undefined
+include::backlogs/basic.adoc[]
+
+:backlog-type: School
+:include-location: //defined
+include::backlogs/basic.adoc[]
+
 :backlog-type: Chores
-include::backlogs/layout.adoc[]
+:include-location: //defined
+include::backlogs/basic.adoc[]
+
+:backlog-type: Shopping
+:include-location: //defined
+include::backlogs/basic.adoc[]
+
+:note-type: Digital Transfer Capturing
+include::notes/basic.adoc[]
 
 // blank page for inserting into wallet (solves #5)
 <<<
