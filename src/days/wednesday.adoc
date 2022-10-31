@@ -47,23 +47,23 @@ include::routines/morning-eat.adoc[]
 | 1:35  | 
 | 1:40  | 
 | 1:45  | 
-| 1:50  | WLK_LIB
+| 1:50  | WLK_CLS; EAT_S
 | 1:55  | 
-| 2:00  | EAT_L
+| 2:00  | SCH_CLS
 | 2:05  | 
-| 2:10  | POM_SCH:
+| 2:10  | 
 | 2:15  | 
 | 2:20  | 
 | 2:25  | 
 | 2:30  | 
-| 2:35  | POM_SCH:
+| 2:35  | 
 | 2:40  | 
 | 2:45  | 
 | 2:50  | 
 | 2:55  | 
-| 3:00  | BRK
+| 3:00  | 
 | 3:05  | 
-| 3:10  | IPOM_SCH:
+| 3:10  | 
 | 3:15  | 
 | 3:20  | 
 | 3:25  | 
@@ -71,7 +71,7 @@ include::routines/morning-eat.adoc[]
 | 3:35  | 
 | 3:40  | 
 | 3:45  | 
-| 3:50  | WLK_CLS
+| 3:50  | WLK_CLS; EAT_L
 | 3:55  | 
 | 4:00  | SCH_CLS
 | 4:05  | 

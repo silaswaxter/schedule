@@ -10,8 +10,8 @@
 | FLEX
 | Buffer time-blocks
 
-| PLAN
-| Short-term planning
+| PLAN: <hint>
+| Do short-term planning considering the `<hint>`.
 
 | WAKE
 | Wakeup
@@ -22,11 +22,11 @@
 | READ: <content>
 | Read `<content>`
 
-| WR: <content>
-| Write about `<content>`
+| DOC_[W \| V]: <content>
+| Document about `<content>` by writing 'W' or videoing 'V'.
 
-| THINK: <content>
-| Think about `<content>`. Could be meditation.
+| SOC: <platform> <content>
+| Post to the social media `<platform>` about `<content>`.
 
 | POM_<work_type>: <task>
 | A pomodoro is a standard time-block in which I focus on completing the 
@@ -86,4 +86,15 @@
 | CLS
 | Class
 
+| S
+| Snack
+
+| B
+| Breakfast
+
+| L
+| Lunch
+
+| D
+| Dinner
 |===

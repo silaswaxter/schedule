@@ -1,0 +1,27 @@
+| 7:45  | PACK: SCH lunch gym
+| 7:50  | FLEX
+| 7:55  | 
+| 8:00  | COOK_D
+| 8:05  | 
+| 8:10  | 
+| 8:15  | 
+| 8:20  | 
+| 8:25  | 
+| 8:30  | EAT_D & FUN
+| 8:35  | 
+| 8:40  | 
+| 8:45  | 
+| 8:50  | 
+| 8:55  | 
+| 9:00  | 
+| 9:05  | DOC_W:
+| 9:10  | 
+| 9:15  | DOC_V:
+| 9:20  | SOC: tiktok/insta 
+| 9:25  | SOC: linked-in
+| 9:30  | CLN_MEAL
+| 9:35  | 
+| 9:40  | 
+| 9:45  | contacts; CLN_TEETH
+| 9:50  | CLN_FACE
+| 9:55  | set alarm; SLP
