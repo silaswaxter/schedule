@@ -1,0 +1,11 @@
+extends: ../booklet-theme.yml
+page:
+  size: [1.75in, 5.6in]
+cover:
+  front:
+    image: ~
+  back:
+    image: ~
+prose:
+  margin-bottom: 0
+

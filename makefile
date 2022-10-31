@@ -1,31 +1,47 @@
-# This makefile is **not** correct. It always executes the build on all files
-# regardless of modification.
+build_dir := build
+src_dir := src
 
-BUILD_DIR := ./build
-SRC_DIR := ./src
-MAKEFILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
-CURRENT_DIRECTORY := $(notdir $(patsubst %/,%,$(dir $(MAKEFILE_PATH))))
+readable_pdf := $(build_dir)/readable_schedule.pdf
+printable_pdf := $(build_dir)/printable_schedule.pdf
 
-READABLE_DOC := readable_schedule.pdf
-PRINTABLE_DOC := printable_schedule.pdf
-TOP_LEVEL_SRC	:= $(SRC_DIR)/booklet.adoc
-THEME_FILE := src/booklet-theme.yml
-SRCS := $(shell find $(SRC_DIR) -name "*.adoc")
+booklet_top_src	:= $(src_dir)/booklet.adoc
+booklet_theme := $(src_dir)/booklet-theme.yml
 
-.phony: print $(BUILD_DIR)/$(READABLE_DOC) clean
+days_src := $(shell find $(src_dir)/days -name *day.adoc)
+days_readable_pdf := $(patsubst %.adoc,%.pdf,\
+										 $(subst $(src_dir)/days,$(build_dir),\
+										 $(patsubst %.adoc,%-readable.adoc,$(days_src))))
+days_assemble_pdf := $(subst readable,assemble,$(days_readable_pdf))
+days_theme := $(src_dir)/days/schedule-theme.yml
 
-print: $(BUILD_DIR)/$(PRINTABLE_DOC)
-	echo "This would be cool to do from cli in the future."
+.phony: print $(readable_pdf) clean
 
-$(BUILD_DIR)/$(PRINTABLE_DOC): $(BUILD_DIR)/$(READABLE_DOC)
+print: $(printable_pdf)
+	$(info CLI printing coming soon.)
+
+$(printable_pdf): $(readable_pdf)
 	bash ./layout.sh $< $@
 
-$(BUILD_DIR)/$(READABLE_DOC): $(TOP_LEVEL_SRC) $(THEME_FILE) $(SRCS)
+$(readable_pdf): $(booklet_top_src) $(booklet_theme) $(days_assemble_pdf)
 	docker run -v $(shell pwd):/documents/ \
 		--rm \
 		asciidoctor/docker-asciidoctor \
-		asciidoctor-pdf $(TOP_LEVEL_SRC) --theme $(THEME_FILE) -o $@
+		asciidoctor-pdf $< \
+		-a day-pdf-prefix="$(build_dir)/" \
+		-a day-pdf-suffix="-assemble.pdf" \
+		--theme $(booklet_theme) -o $@
+
+%-assemble.pdf: %-readable.pdf
+	bash ./schedule_layout.sh $< $@
+
+$(build_dir)/%-readable.pdf: $(src_dir)/days/schedule.adoc $(src_dir)/days/%.adoc $(days_theme)
+	docker run -v $(shell pwd):/documents/ \
+		--rm \
+		asciidoctor/docker-asciidoctor \
+		asciidoctor-pdf $< \
+		-a schedule-day=$* \
+		--theme $(days_theme) -o $@
 
 clean:
-	rm -rf $(BUILD_DIR)/*
+	rm -rf $(build_dir)/*
 

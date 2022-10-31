@@ -34,14 +34,15 @@ title-page:
     font-color: #000000
     font-style: normal
     margin-top: 6
-base:
-  font-size: 5
 
 cover:
   front:
     image: ~
   back:
     image: ''
+
+base:
+  font-size: 5
 
 table:
   border-width: 0

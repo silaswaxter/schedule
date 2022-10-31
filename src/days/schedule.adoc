@@ -1,41 +1,6 @@
-// nesting tables to place tables side-by-side.
-[frame=none]
-[width=100%]
-[cols="1a,1a"]
+// remember attributes can be passed from cli using `-a`
+**Date**
+[cols="15h,85",]
 |===
-| {booklet-theme-phrase} | Date
-
-|
-// page 1 left half
-[%noheader]
-[cols="15h,85"]
-!===
-// note: `lines` specifies before preprocessor expansion. See issue #2
-include::{schedule-day-filename}[lines=1..52]
-!===
-
-|
-// page 1 right half
-[%noheader]
-[cols="15h,85"]
-!===
-include::{schedule-day-filename}[lines=53..104]
-!===
-
-|
-// page 2 left half
-[%noheader]
-[cols="15h,85"]
-!===
-include::{schedule-day-filename}[lines=105..156]
-!===
-
-|
-// page 2 right half
-[%noheader]
-[cols="15h,85"]
-!===
-include::{schedule-day-filename}[lines=157..208]
-!===
+include::{schedule-day}.adoc[]
 |===
-  
