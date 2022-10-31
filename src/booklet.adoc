@@ -13,9 +13,9 @@ include::encodings.adoc[]
 // day identifier like 'monday' or 'tuesday.
 image::{day-pdf-prefix}monday{day-pdf-suffix}[pages=1..2]
 image::{day-pdf-prefix}tuesday{day-pdf-suffix}[pages=1..2]
-//image::{day-pdf-prefix}wednesday{day-pdf-suffix}[pages=1..2]
-//image::{day-pdf-prefix}thursday{day-pdf-suffix}[pages=1..2]
-//image::{day-pdf-prefix}friday{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}wednesday{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}thursday{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}friday{day-pdf-suffix}[pages=1..2]
 
 :backlog-type: Chores
 include::backlogs/layout.adoc[]

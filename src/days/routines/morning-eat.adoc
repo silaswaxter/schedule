@@ -1,5 +1,5 @@
-| 5:00  | WAKE; contacts, coffee
-| 5:05  | PLAN
+| 5:00  | WAKE; contacts, coffee, COOK_S
+| 5:05  | PLAN; EAT_S
 | 5:10  | 
 | 5:15  | READ:
 | 5:20  | 
@@ -33,8 +33,26 @@
 | 7:40  | 
 | 7:45  | 
 | 7:50  | 
-| 7:55  | POM_META_DEV:
+| 7:55  | IPOM_META_DEV:
 | 8:00  | 
 | 8:05  | 
 | 8:10  | 
-| 8:15  | 
+| 8:15  | COOK_B
+| 8:20  | 
+| 8:25  | 
+| 8:30  | 
+| 8:35  | 
+| 8:40  | 
+| 8:45  | EAT_B
+| 8:50  | 
+| 8:55  | CLN_B
+| 9:00  |
+| 9:05  | CLN_TEETH; CLN_BODY
+| 9:10  | 
+| 9:15  | DRS
+| 9:20  | PACK: SCH L gym
+| 9:25  | DRV_SCH
+| 9:30  | 
+| 9:35  | 
+| 9:40  | 
+| 9:45  | 
