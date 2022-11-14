@@ -1,6 +1,6 @@
 :doctype: book
 // The top-level file that describes the book's composition
-:booklet-theme-phrase: Kill Dragons!
+:booklet-theme-phrase: One is greater than zero
 
 = {booklet-theme-phrase}: A Daily Schedule
 Silas Waxter
