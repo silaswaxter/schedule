@@ -1,3 +1,5 @@
+:imagesdir: ./images
+
 = Scheduling Silas
 
 [quote, unknown]
@@ -17,6 +19,11 @@ my time. Perhaps this will reduce the phenomenon of thinking about work when
 your playing and thinking about play when your working.
 
 == Implementation
+
+image:printed-booklet-revision-1-cover-page.jpg[]
+
+image:printed-booklet-revision-1-first-page.jpg[]
+
 The end-product is a printable booklet which I carry in my wallet. I've tried
 digital solutions, but I prefer paper. 
 
