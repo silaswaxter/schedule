@@ -40,6 +40,7 @@ tasks I need to complete: school, chores, reading, quotes, ideas, road-maps,
 etc.
 
 == Contributing
+
 This project subscribes to the 
 https://www.writethedocs.org/guide/docs-as-code/[docs-as-code philosophy]: 
 documentation is described in plain-text, and outputs are generated from these 
@@ -47,6 +48,7 @@ source files. This improves flexibility, correctness, maintainability, and
 single-source-of-truth. 
 
 === Tools Used
+
 * https://asciidoctor.org/[asciidoctor] 
   https://hub.docker.com/r/asciidoctor/docker-asciidoctor[docker image]
 * https://archlinux.org/packages/extra/any/psutils/[psutils]
