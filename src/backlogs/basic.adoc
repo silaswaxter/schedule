@@ -1,4 +1,4 @@
-== {backlog-type} Backlog
+== Backlog:  {backlog-type}
 
 ifdef::include-location[]
 [cols="50a,20,10,10,10"]

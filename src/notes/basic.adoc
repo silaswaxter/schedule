@@ -1,4 +1,4 @@
-== {note-type} Note
+== Note:  {note-type}
 
 [cols="80a,20"]
 |===
