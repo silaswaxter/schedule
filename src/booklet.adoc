@@ -45,6 +45,9 @@ include::backlogs/basic.adoc[]
 :note-type: Digital Transfer Capturing
 include::notes/basic.adoc[]
 
+:note-type: Content to Consume/Research
+include::notes/basic.adoc[]
+
 // blank page for inserting into wallet (solves #5)
 <<<
 {sp}
