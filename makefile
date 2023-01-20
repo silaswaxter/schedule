@@ -10,8 +10,8 @@ booklet_theme := $(src_dir)/booklet-theme.yml
 
 days_src := $(shell find $(src_dir)/days -name *day.adoc)
 days_readable_pdf := $(patsubst %.adoc,%.pdf,\
-										 $(subst $(src_dir)/days,$(build_dir),\
-										 $(patsubst %.adoc,%-readable.adoc,$(days_src))))
+			 $(subst $(src_dir)/days,$(build_dir),\
+			 $(patsubst %.adoc,%-readable.adoc,$(days_src))))
 days_assemble_pdf := $(subst readable,assemble,$(days_readable_pdf))
 days_theme := $(src_dir)/days/schedule-theme.yml
 

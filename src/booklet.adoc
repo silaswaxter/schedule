@@ -5,33 +5,27 @@
 = {booklet-theme-phrase}: A Daily Schedule
 Silas Waxter
 
-include::encodings.adoc[]
-
 // default image location is project root
 :imagesdir: ..
 // Attributes used as interface to build system. Pass a generalized prefix and
 // suffix for each day of the week. The filename is abstracted except for the
 // day identifier like 'monday' or 'tuesday.
-image::{day-pdf-prefix}monday{day-pdf-suffix}[pages=1..2]
-image::{day-pdf-prefix}tuesday{day-pdf-suffix}[pages=1..2]
-image::{day-pdf-prefix}wednesday{day-pdf-suffix}[pages=1..2]
-image::{day-pdf-prefix}thursday{day-pdf-suffix}[pages=1..2]
-image::{day-pdf-prefix}friday{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
+image::{day-pdf-prefix}day{day-pdf-suffix}[pages=1..2]
 
-
-:backlog-type: Meta Development
-:!include-location: //undefined
-include::backlogs/basic.adoc[]
-
-:backlog-type: Project ROM
-:!include-location: //undefined
-include::backlogs/basic.adoc[]
-
-:backlog-type: Social Media
-:!include-location: //undefined
-include::backlogs/basic.adoc[]
-
-:backlog-type: School
+:backlog-type: Shopping
 :include-location: //defined
 include::backlogs/basic.adoc[]
 
@@ -39,11 +33,7 @@ include::backlogs/basic.adoc[]
 :include-location: //defined
 include::backlogs/basic.adoc[]
 
-:backlog-type: Shopping
-:include-location: //defined
-include::backlogs/basic.adoc[]
-
-:note-type: Digital Transfer Capturing
+:note-type: Misc for Digital Transfer
 include::notes/basic.adoc[]
 
 :note-type: Content to Consume/Research
